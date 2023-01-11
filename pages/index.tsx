@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <Head>
         <title>Mabuhay Dumaguete Dive Center</title>
-        <meta name="description" content="Mabuhay Dumaguete divecenter and Fish and Cake restaurant at Dauin in Negros oriental." />
+        <meta name="description" content="Mabuhay Dumaguete divecenter and Fish and Cake restaurant at Dauin in Negros Oriental." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
