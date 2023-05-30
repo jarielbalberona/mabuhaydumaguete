@@ -1,7 +1,8 @@
-"use client"
+"use client";
 import "../globals.css";
 import { Inter } from "next/font/google";
 import Navigation from "./navigation";
+import Footer from "./footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

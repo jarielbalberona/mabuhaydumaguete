@@ -5,7 +5,7 @@ import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 
-import { classNames } from "~/utils/general";
+import { classNames } from "../../utils/general";
 
 const Navigation = () => {
   return (
@@ -66,7 +66,7 @@ const Navigation = () => {
                     href="#"
                     className="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:border-gray-300 hover:text-gray-700"
                   >
-                    Restaurant
+                    Food
                   </a>
                   <a
                     href="#"
