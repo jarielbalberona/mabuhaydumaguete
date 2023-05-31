@@ -1,3 +1,6 @@
+import Carousel from "~/components/carousels/home";
+import Map from "~/components/map";
+
 export default function Home() {
   return (
     <main>
@@ -27,6 +30,7 @@ export default function Home() {
           </h1>
         </div>
       </div>
+      <Carousel />
       <div className="relative h-[50vh] bg-white">
         <div className="flex items-center h-full px-8 py-12 mx-auto">
           <p className="flex flex-col w-full text-2xl text-center">
@@ -96,6 +100,24 @@ export default function Home() {
                   Call to action
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative bg-white">
+        <div className="flex items-center h-full px-8 py-12 mx-auto">
+          <div className="grid grid-cols-2 gap-4">
+            <div className="flex items-center justify-center p-12">
+              <p className="flex flex-col w-full text-2xl text-center">
+                Located just 15 kilometers south of the city in the charming
+                town of Dauin, our shop is strategically positioned to provide
+                easy access to renowned dive sites. Dive into the crystal-clear
+                waters and discover the hidden wonders of Dumaguete&lsquo;s underwater
+                realm.
+              </p>
+            </div>
+            <div>
+              <Map />
             </div>
           </div>
         </div>
